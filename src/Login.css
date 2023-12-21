@@ -1,0 +1,66 @@
+.login{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ }
+ .titulolog{
+    text-align: center;
+    width: 100%;
+    font-size: 3vw;
+    margin-top:2vw;
+    margin-bottom: 2vw;
+    color: rgb(143, 142, 139);
+    font-weight: 800;
+ }
+ .logform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    border-radius: 5px;
+    border: 0.2vw outset rgb(143, 142, 139);
+    opacity: 0.85;
+    margin-top: 10vw;
+    margin-bottom: 10vw;
+ }
+ .labellog{
+    font-weight: 700;
+    text-align: center;
+    background-color: rgb(36, 36, 36)!important;
+    color:rgb(143, 142, 139);
+    font-size: 1.5vw;
+ }
+ .inputlog{
+    align-items: center;
+    font-size: 1.5vw;
+    align-self: center;
+    width: 100%;
+    margin-bottom: 1vw;
+    margin-top:1vw;
+    border-radius: 5px;
+    outline-color: rgb(143, 142, 139);
+ }
+ .botoneslogin{
+    margin-bottom: 1vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .input-submitlog{
+    text-align: center;
+    font-size: 1vw!important;
+    font-weight: 700;
+    margin-top: 1vw;
+    padding: 1vw;
+    text-decoration: none;
+    transition: var(--transition);
+    background-color: rgb(10, 61, 4);
+    color: rgb(143, 142, 139);
+    width: 100%;
+    border-radius: 5px;
+    border: 0.2vw outset rgb(143, 142, 139)!important;
+    cursor: pointer;
+ }
